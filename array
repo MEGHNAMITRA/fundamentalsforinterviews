@@ -1,0 +1,32 @@
+A. What do you mean by an Array?
+=  Array is a set of similar data type.Arrays objects store multiple variables with the same type.It can hold primitive types and object references.
+  Arrays are always fixed.
+
+B. Can we change the size of an array at run time?
+=  No we cannot change the array size. Though there are similar data types available which allow a change in size.
+
+C. When will we get ArrayStoreException?
+=  It is a runtime exception. For example, we can store only string elements in a String Array. If anybody tries to insert integer element in this String Array, then we will get ArrayStoreException at run time.
+
+D. What are “jagged” arrays in java?
+=  Jagged Arrays are Arrays are containing arrays of different length. Jagged arrays are also known as multidimensional arrays.
+
+E. When ArrayIndexOutOfBoundsException occurs?
+=  It is a run time exception.It will occur when the program tries to access invalid index of an array. Index higher than the size of the array or negative index.
+
+F. How do we search a specific element in an array?
+=  We can use Arrays.binarySearch() method. This method uses binary search algorithm.
+
+G. If you do not initialize an array what will happen?
+=  Array will have default value.
+
+H. Can we make array volatile in Java?
+=  Yes, we can make an array volatile in Java, but we only make the variable which is pointing to array volatile.
+
+I. We know that Arrays are objects so why cannot we write strArray.length()?
+=  Arrays are object references like classes in Java. We can use the methods of Object like toString () and another one hashCode () against Array. Length is a data item of an array and so it is not a method.
+  That’s why we are using strArray.length.
+  
+J. How to copy an array in Java?
+=  We can create a copy of an array in two ways, first one is manually by iterating over the array and the second one is by using the arrayCopy() method. Using the arrayCopy() method of the System class is the fastest way to copy an array and also allows us to copy a part of the array. These two methods are the popular ways to copy an array.
+  The other two methods to copy an array is to use the Arrays.copyOf() method and using clone() method.
