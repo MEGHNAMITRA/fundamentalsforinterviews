@@ -1,0 +1,35 @@
+Q1.   What are different types of inner classes ?
+=     Simple Inner Class, Local Inner Class, Anonymous Inner Class , Static Nested Inner Class.
+
+Q2.   Does Constructor creates the object ?
+=     New operator in Java creates objects. Constructor is the later step in object creation. Constructor's job is to initialize the members after the object haS reserved
+      memory for itself.
+       
+Q3.   Difference between == and .equals() ?
+=     "equals" is the member of object class which returns true if the content of objects are same whereas  "==" evaluate to see if the object handlers on the left and 
+       right are pointing to the same object in memory.
+         
+Q4.   What are wrapper classes ?
+=     They are wrappers to primitive data types. They allow us to access primitives as objects.
+
+Q5.   What one should take care of, while serializing the object?
+=     One should make sure that all the included objects are also serializable. If any of the objects is not serializable then it throws a NotSerializable Exception.
+
+Q6.   Which access specifier can be used with Class ?
+=     For top level class we can only use "public" and "default". We can use private with inner class.
+
+Q7.   Difference between Abstract and Concrete Class ?
+=     Abstract classes are only meant to be sub classed and not meant to be instantiated whereas concrete classes are meant to be instantiated.
+
+Q8.   What is a Final Class ?
+=     A Class that cannot be sub classed.
+
+Q9.   What is an immutable class ?
+=     Class using which only immutable (objects that cannot be changed after initialization) objects can be created.
+
+Q10.  Difference between nested and inner classes ?
+=     Inner classes are non static nested classes.
+
+Q11. Can we create an object if a Class doesn't have any constructor ( not even the default provided by constructor ) ?
+=    Yes , using Class.getInstance.
+ 
