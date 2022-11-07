@@ -1,0 +1,36 @@
+Q1.  What is constructor overloading in java?
+=     Constructor overloading is a technique in which a class can have more than one constructor having the same name but different parameter lists.
+      A parameter list consists of order and types of arguments.
+       
+Q2.  How does Java compiler differentiate among multiple constructors in a class?
+=     Java compiler differentiates multiple constructors based on the number of parameter lists and their types.
+      Therefore, the signature of each constructor must be different.
+       
+Q3.  What is the use of overloading constructor in java?
+=     Overloading constructors can be used for performing different tasks based on different data.
+
+Q4.  Can we have more than one constructor with same signature in a class?
+=     No, we cannot have more than one constructor with same signature in a class.
+
+Q5.  What is constructor chaining in java?
+=     Constructor chaining in Java is a technique of calling one constructor from within another constructor by using this and super keywords.
+
+Q6.  Why do we use/need constructor chaining?
+=     Constructor chaining can be used when we want to perform multiple tasks in a separate constructor for each task and make their order by chaining.
+       It is useful to make the program more readable and easy to understand for everyone.
+        
+Q7.  How to call one constructor from another constructor in Java?
+=    Using this(), we can call the current class constructor within the “same class”.
+     Using super(), we can call the superclass constructor from the “base class”.
+         
+Q8.  What is a copy constructor?
+=    A constructor which is used to copy the data of one object to another object of the same class type is called copy constructor in Java.
+
+Q9.  Can we create an object of class within the same class if a constructor is marked with private?
+=    Yes, we can create an object of class within the same class if constructor is marked with private but not outside the class.
+
+Q10. Can class be extended when a constructor is declared private?
+=    No.
+
+Q11. What is the difference between constructor and method?
+=    Refer to this tutorial: Constructor in Java 
