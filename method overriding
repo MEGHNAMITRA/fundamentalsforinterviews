@@ -1,0 +1,36 @@
+Q1. What is method overriding?
+= Modifying a super class method in the sub class is called method overriding. Using method overriding, we can change super class method according
+   to the requirements of sub class.
+   
+Q2.Can we override static methods?
+=No, Static methods can not be overridden. If we try to override them they will be hidden in the sub class.
+
+Q3.What happens if we change the arguments of overriding method?
+=If we change the arguments of overriding method, then that method will be treated as overloaded not overridden.
+
+Q4.Can we override protected method of super class as public method in the sub class?
+=Yes. You can increase the visibility of overriding methods but can’t reduce it.
+
+Q5.Can we change the return type of overriding method from Number type to Integer type?
+=Yes. You can change as Integer is a sub class of Number type.
+
+Q6.Can we override a super class method without throws clause as a method with throws clause in the sub class?
+=Yes, but only with unchecked type of exceptions.
+
+Q7.Can we change an exception of a method with throws clause from SQLException to NumberFormatException while overriding it?
+=Yes. Overridden method may throw SQLException or it’s sub class exception or any unchecked type of exceptions.
+
+Q8.Can we change an exception of a method with throws clause from unchecked to checked while overriding it?
+=No. We can’t change an exception of a method with throws clause from unchecked to checked.
+
+Q9. How do you refer super class version of overridden method in the sub class?
+=Using super keyword, we can refer super class version of overridden method in the sub class.
+
+Q10.Can we override private methods?
+=No question of overriding private methods. They are not at all inherited to sub class.
+
+Q11.Can we remove throws clause of a method while overriding it?
+=Yes. You can remove throws clause of a method while overriding it.
+
+Q12.Can we change an exception of a method with throws clause from checked to unchecked while overriding it?
+=Yes. We can change an exception from checked to unchecked but reverse is not possible.
