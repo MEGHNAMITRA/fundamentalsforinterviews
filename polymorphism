@@ -1,0 +1,48 @@
+Q1.What is polymorphism?
+=Polymorphism is the ability of an object to take on many different forms. In programming, this means that a single object can be used to represent different data types. 
+   For example, a single object could be used to represent an integer, a floating-point number, or a string.
+   
+Q2.Can you give me a simple example of how polymorphism works?
+=Polymorphism is the ability of an object to take on many different forms. A simple example of this is a person. A person can be a son, a daughter, a brother, a sister, an uncle, an aunt, etc. But at the end of the day, they are still just a person. 
+  In programming, an object can be given different forms by using inheritance.
+  
+Q3.How does the concept of polymorphism apply to object-oriented programming languages?
+=Polymorphism is the ability of an object to take on multiple forms. In object-oriented programming languages, this means that a single object can be used to represent multiple different types of objects. 
+  This can be useful for creating code that is more flexible and easier to reuse.
+  
+Q4. Is it possible for multiple classes to implement an interface in Java? If yes, then what are the benefits of doing so?
+=Yes, it is possible for multiple classes to implement an interface in Java. The benefits of doing so include increased code reuse and flexibility,
+   as well as the ability to more easily change the implementation of the interface as needed.
+   
+Q5.What happens if two methods have different return types but share the same name and signature?
+=In this case, the method with the more specific return type will be chosen. For example, if one method returns an int and the other returns a double,
+  the method returning the double will be chosen.
+  
+Q6.What’s your understanding of late binding in context with polymorphism?
+=Late binding is the process of dynamically linking together objects and methods at runtime, as opposed to early binding which happens at compile time. Late binding is often used in conjunction with polymorphism, which is the ability of an object to take on different forms depending on the context. 
+  Together, these two concepts allow for great flexibility in code, as the same object can be used in different ways depending on the situation.
+  
+Q7. Can you explain the difference between early binding and late binding? Which one provides better performance?
+=Early binding is when the compiler knows exactly which method to call at compile time, while late binding is when the compiler only knows the general type of object that it will be dealing with. 
+   Early binding is generally faster because the compiler can optimize the code better, but late binding can be more flexible.
+   
+Q8.Can you explain what type erasure is?
+=Type erasure is the process of removing all type information from a piece of code at compile time. This can be useful for making code more flexible and generic,
+  but it can also lead to problems if the type information is needed at runtime.
+  
+Q9.What do you understand about virtual functions?
+=A virtual function is a member function of a base class that is declared using the virtual keyword. When a virtual function is called, the compiler will automatically choose the correct function to call based on the type of the object that is calling the function. 
+  This allows for polymorphism, or the ability to treat objects of different types in the same way.
+  
+Q10.Why can’t a class be both abstract and final at the same time?
+=A class cannot be both abstract and final at the same time because it would defeat the purpose of polymorphism. An abstract class is one that is meant to be extended by other classes, so that they can inherit its methods and add their own implementation. A final class, on the other hand, is one that cannot be extended. Therefore, if a class were both abstract and final,
+  it would be impossible to inherit its methods and add your own implementation, which is the whole point of polymorphism.
+  
+Q11.Can you give me some examples of when runtime polymorphism may not work as expected?
+=One example of when runtime polymorphism may not work as expected is when you are trying to override a method that is declared as final in the parent class.
+   Another example is when you are trying to override a method that is not declared as virtual in the parent class.
+
+
+
+  
+ 
