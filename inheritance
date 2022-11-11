@@ -1,0 +1,38 @@
+Q1.What is Inheritance in Java?
+=  The technique of creating a new class by using an existing class functionality is called inheritance in Java. In other words, inheritance is a process where a child class acquires all the properties and
+    behaviors of the parent class.
+    
+Q2.What is Is-A relationship in Java?
+= Is-A relationship represents Inheritance. It is implemented using the “extends” keyword. It is used for code reusability.
+
+Q3.What is super class and subclass?
+=  A class from where a subclass inherits features is called superclass. It is also called base class or parent class.
+     A class that inherits all the members (fields, method, and nested classes) from other class is called subclass. 
+      It is also called a derived class, child class, or extended class.
+      
+Q4.How is Inheritance implemented/achieved in Java?
+=Inheritance can be implemented or achieved by using two keywords:
+  extends: extends is a keyword that is used for developing the inheritance between two classes and two interfaces.
+  implements: implements keyword is used for developing the inheritance between a class and interface.
+  
+Q5.Which class in Java is superclass of every other class?
+=  In Java, Object class is the superclass of every other class.
+
+Q6.Can a class extend itself?
+= No, a class cannot extend itself.
+
+Q7.Can we assign superclass to subclass?
+=No.
+
+Q8.Can a class extend more than one class?
+= No, one class can extend only a single class.
+
+Q9. Are constructor and instance initialization block inherited to subclass?
+= No, constructor and instance initialization block of the superclass cannot be inherited to its subclass but they are executed while
+    creating an object of the subclass.
+    
+Q10.Which keyword do you use to define a subclass?
+=extends keyword.
+
+Q11.What is Hybrid inheritance in java? How will you achieve it?
+=A hybrid inheritance in java is a combination of single and multiple inheritance. It can be achieved through interfaces.
