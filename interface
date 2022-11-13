@@ -1,0 +1,42 @@
+Q1. What is an interface in Java?
+= An interface in Java is a mechanism that is used to achieve complete abstraction. It is basically a kind of class that contains only constants and abstract methods.
+
+Q2.Can we define private and protected modifiers for data members (fields) in interfaces?
+= No, we cannot define private and protected modifiers for variables in interface because the fields (data members) 
+  declared in an interface are by default public, static, and final.
+  
+Q3. Which modifiers are allowed for methods in an Interface?
+= Only abstract and public modifiers are allowed for methods in interfaces.
+
+Q4.Suppose A is an interface. Can we create an object using new A()?
+= No, we cannot create an object of interface using new operator. But we can create a reference of interface type and
+  interface reference refers to objects of its implementation classes
+  
+Q5.Can an interface extends another interface in Java?
+= Yes, an interface can extend another interface.
+
+Q6. Can we define an interface inside a method as local member?
+= No, we can’t define an interface as local member of a method like local inner class.
+
+Q7.Can we reduce the visibility of interface method while overriding?
+= No, while overriding any interface methods, we must use public only. This is because all interface methods are public by default. 
+  We cannot reduce the visibility while overriding them.
+  
+Q8. What is a Nested interface?
+= An interface declared side another interface is called nested interface. By default, it is static in nature. It is also known as static interface.
+
+Q9.What is a Marker Interface in Java?
+= An Interface that doesn’t have any data members or methods is called marker interface in java. For example, Serializable, Cloneable, Remote, etc.
+
+Q10.Can we define a variable in an interface? What type it should be?
+= Yes, we can define variable in an interface that must be implicitly static and final.
+
+Q11.Is it necessary to implement all abstract methods of an interface?
+= Yes, all the abstract methods defined in interface must be implemented.
+
+Q12.Can an interface be final?
+= No. Doing so will result compilation error problem.
+
+Q13. Why an Interface can extend more than one Interface but a Class can’t extend more than one Class?
+= We know that Java doesn’t allow multiple inheritance because a class extends only one class. But an Interface is a pure abstraction model. 
+  It does not have inheritance hierarchy like classes.
