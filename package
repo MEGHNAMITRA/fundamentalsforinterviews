@@ -1,0 +1,34 @@
+Q1.Which package is always imported by default?
+= No. It is by default loaded internally by the JVM. The java.lang package is always imported by default.
+
+Q2.Can I import same package/class twice? Will the JVM load the package twice at runtime?
+= One can import the same package or same class multiple times. Neither compiler nor JVM complains anything about it. And the 
+   JVM will internally load the class only once no matter how many times you import the same class.
+   
+Q3.Does importing a package imports the sub packages as well? E.g. Does importing com.bob.* also import com.bob.code.*?
+= No you will have to import the sub packages explicitly. Importing com.bob.* will import classes in the package bob only. 
+   It will not import any class in any of its sub package’s.
+   
+Q4.What is a Java package and how is it used?
+= A Java package is a naming context for classes and interfaces. A package is used to create a separate name space for groups of classes and interfaces. Packages are also used to organize related classes and interfaces into a single API unit and to control accessibility to these classes and interfaces.
+  For example: The Java API is grouped into libraries of related classes and interfaces; these libraries are known as package.
+  
+Q5.Are the imports checked for validity at compile time? e.g. will the code containing an import such as java.lang.BOB compile?
+= Yes the imports are checked for the semantic validity at compile time. The code containing above line of import will not compile. 
+  It will throw an error saying, cannot resolve symbol.
+  
+Q6.Can a class declare as private be accessed outside its package?
+= No. once declared as private, it is not possible to access the class outside its package.
+
+Q7.What is the naming convention to be followed for declaring a user-defined package in Java application development?
+= The Reverse Domain naming convention is to be followed for declaring a user-defined package in Java Application development. For this the syntax is:
+  com.companyname.projectname.module.submodule;
+  
+Q8.Can a source file contain more than one class declaration?
+= Yes. A single source file can contain any number of class declarations, but only one of the classes can be declared as public.
+
+Q9.What restrictions are placed on the location of a package statement within a source code file?
+= A package statement must appear as the first line in a source code file (excluding blank lines and comments).
+
+Q10.What is a reflection package?
+= The java.lang reflect package has the ability to analyze itself in runtime.
