@@ -1,0 +1,44 @@
+Q1.What do you understand about a “thread” in Java programming?
+= A “thread is the smallest unit of processing and is a lightweight subprocess executed independently.
+   Each thread in the program runs on a different stack frame, and multiple threads form the complete program.
+   
+Q2. What are some fundamental advantages of multithreading in Java?
+= The key benefits of Java multithreading include: Multiple threads can share single address spaces,Threads share the same resources from the library but can execute differently
+  Different threads can be made to perform various functions to yield a given result.
+  
+Q3.What is the fundamental difference between a process and a thread?
+= A process is part of the main program, while threads are subsets of processes. Processes have different address spaces in the memory, 
+  while threads share the same address space.
+  
+Q4. What is inter-thread communication?
+= Communication between synchronized threads is referred to as inter-thread communication. It is a core feature that helps to avoid thread-polling in Java. 
+  A particular thread can be paused through inter-thread communication to allow another thread to enter the block.
+  
+Q5.What are some functions used to perform inter-thread communication in Java?
+= This is one of the most common Java Multithreading interview questions asked in tech interviews.
+  Some common functions used to perform inter-thread communication in Java are - notify(), wait() and notifyAll().
+  
+Q6.What do you understand about the wait() function in Java?
+= The wait() function, specified by the object class, is used to pause the current thread and wait until another thread calls the notify() function. 
+   Note that the wait() method needs to be called from a synchronized block to avoid an exception from occurring.
+   
+Q7. What are the different states in a thread lifecycle?
+= This is another Java Multithreading interview question asked at software engineering interviews. The different states in a thread life cycle include:
+  New,Runnable,Running,Waiting,Dead.
+  
+Q8.What do you understand by context switching?
+= Context switching is a feature through which the current state of a thread is saved for it to be restored and executed later. 
+  Through context switching, multiple processes can share the same CPU.
+  
+Q9. What is the function of the join() method?
+= The join() method causes the current thread to stop running until the thread due to congregate with completes its task. 
+   It is a commonly used function that facilitates the execution of multiple threads in an organized manner.
+   
+Q10.What is the function of the sleep() method?
+= This is yet another popular Java Multithreading Interview Question. The sleep() method is used to pause a particular thread 
+   from executing and prioritizes another thread that needs to be executed before the current thread executes.
+   
+Q11.How do you detect deadlock situations in Java?
+= Deadlock situations can be detected by running the executable code on cmd and subsequently collecting the thread dump.
+   If deadlock situations are present, the cmd will throw up a message. 
+  
