@@ -1,0 +1,39 @@
+Q1.Can you explain what process management is?
+=Process management is the process of managing and regulating the execution of processes within an operating system. This includes the creation, termination, suspension, and resumption of processes, 
+  as well as the sharing of resources between processes.
+  
+Q2.What are some common tasks performed by a process manager?
+=A process manager is responsible for a number of tasks, all aimed at ensuring that processes run smoothly. These tasks can include creating and maintaining process documentation, monitoring process performance, and identifying process improvements. A process manager may also be responsible for 
+  training new employees on processes, and for enforcing process compliance.
+  
+Q3.How does a process manager differ from an operating system?
+=A process manager is a software program that is responsible for managing the execution of processes within a computer system. An operating system, on the other hand, is a software program that provides a platform for other software programs to run on. In other words, an operating system is a more general software program that manages the overall operation of a computer system, 
+   while a process manager is more specific and manages the execution of individual processes.
+   
+Q4.Why do we need processes to be managed?
+=Processes need to be managed in order to keep them running smoothly and efficiently. If a process is not managed properly, it can become bogged down and inefficient, which can lead to problems further down the line. By managing processes, we can ensure that they are running as smoothly as possible and that any 
+   potential problems are caught and dealt with before they cause any major issues.
+   
+Q5.What is load balancing?
+=Load balancing is a process of distributing workloads evenly across a computer network so that no single node is overwhelmed. This helps to ensure that all nodes in 
+  the network are able to function properly and prevents any one node from becoming a bottleneck.
+  
+Q6.What is PM2?
+=PM2 is a process manager for Node.js applications. It helps you keep your applications up and running, and provides a number of features to make your life as a developer easier, 
+  such as automatic restarts, logging, and monitoring.
+  
+Q7.How can you use PM2 to run multiple instances of an application?
+=You can use the “cluster mode” feature of PM2 to run multiple instances of an application on a single server. This will allow you to take advantage of all of the available resources 
+   on the server, and can improve performance.
+   
+Q8.What’s the difference between a service and a process?
+=A service is a program that is designed to run in the background, usually in order to provide some sort of functionality to the user or other programs. A process,
+  on the other hand, is a program that is currently running and taking up memory.
+  
+Q9.Is it possible to add a new process to a running cluster using PM2? If yes, then how?
+=Yes, it is possible to add a new process to a running cluster using PM2. You would need to use the “pm2 start” command, followed by the path to the new process file.
+
+Q10.What happens if any instance of an application fails while running in cluster mode with PM2?
+=When an instance of an application fails while running in cluster mode with PM2, the process is automatically restarted on another instance in the cluster. This ensures that the application remains available and 
+  running despite any individual instance failures.
+  
