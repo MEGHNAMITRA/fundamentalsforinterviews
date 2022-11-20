@@ -1,0 +1,38 @@
+Q1. Explain what is JDBC?
+=This is one of the first and most frequently asked questions in most of the interviews. JDBC stands for Java Database Connectivity. As its name implies, it is a Java API used for interacting with relational databases to access, modify and process data using SQL. It utilizes JDBC drivers for interacting with the database. By using JDBC, one can access tabular data from different types of relational databases such as
+   MySQL, Oracle, MS Access, and so on.
+   
+Q2.What is ResultSet?
+=The java.sql.ResultSet interface is used to represent the database result set, which is a result of the execution of SQL queries using Statement objects. The object of ResultSet comprises a cursor that points to the present row of data in the result set. At first, the cursor is displayed before the first row. Then the cursor moves to the next row by executing the next() method. The next() method iterates through the result set with the support of a while loop. If there are no other rows left, the next() method returns a false. Following is an example for the creation of ResultSet:
+  ResultSet rs = con.executeQuery(sqlQuery);
+  
+Q3.Can you get a null ResultSet?
+=No, you can never get null Resultset(). The ResultSet.next() can return null only if the next record does not comprise a row.
+
+Q4.Explain the difference between ResultSet Vs. RowSet vs in JDBC?
+=In a ResultSet() handle that is linked to a database, you cannot make the Result a serialized object. Thus, you cannot pass Resultset() across the network. The RowSet() spreads the ResultSet() interface, so it comprises all methods from ResultSet(). 
+  A RowSet() is always serialized. Thus, we can pass a Rowset() from one class to another class as it is not connected to the database.
+  
+Q5.Explain which is the most commonly used and fastest JDBC driver.
+=The JDBC Net pure Java driver (Type 4 driver) is the fastest and most commonly used driver for remote and localhost connections. It interacts directly with the database by 
+  changing the JDBC calls into vendor-specific protocol calls.
+  
+Q6.Explain what DatabaseMetaData is and why would you use it?
+=The DatabaseMetaData is an interface that provides methods to gain information about the database. This interface helps in obtaining database-related information, such as database name, driver name, database version, 
+  the total number of tables or views, and so on.
+  
+Q7.Explain the meaning of hot backup and cold backup.
+=While this question is not related to JDBC directly, it may still be asked in an interview. The cold back is the backup process in which the backup of files is taken before restarting the database. In the hot back, backup process the backup of tables 
+   and files is taken at the time when the database is running.
+   
+Q8.Explain if the JDBC-ODBC Bridge supports different concurrent open statements per connection?
+=No, when using the JDBC-ODBC Bridge, you can open only one Statement object.
+
+Q9.What are database warnings in JDBC and explain how we can manage database warnings in JDBC?
+=The database warning or SQL warning is nothing but the subclass of the SQLException class. You can manage or handle this warning by using the getWarnings() method on a statement, connection, and ResultSet.
+
+Q10.Explain why you would use setAutoCommit(false) in JDBC?
+=The setAutoCommit(false) is used to turn off the Auto Commit.
+
+Q11.Explain the role of Class.forName while loading drivers in brief?
+=The Class.forName generates an instance of JDBC driver and a register with DriverManager.
