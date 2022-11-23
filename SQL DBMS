@@ -1,0 +1,44 @@
+Q1.What is SQL?
+=SQL stands for Structured Query Language , and it is used to communicate with the Database. This is a standard language used to perform tasks such as retrieval, updation, insertion and deletion of data from a database.
+Standard SQL Commands are Select.
+
+Q2.What is a Database?
+=Database is nothing but an organized form of data for easy access, storing, retrieval and managing of data. 
+  This is also known as structured form of data which can be accessed in many ways.
+  
+Q3. What are tables and Fields?
+=A table is a set of data that are organized in a model with Columns and Rows. Columns can be categorized as vertical, and Rows are horizontal. A table has specified number of column called fields but can have 
+  any number of rows which is called record.
+  
+Q4.What is a primary key?
+=A primary key is a combination of fields which uniquely specify a row. This is a special kind of unique key, and it has implicit NOT NULL constraint. It means, Primary key values cannot be NULL.
+
+Q5.What is a unique key?
+=A Unique key constraint uniquely identified each record in the database. This provides uniqueness for the column or set of columns.
+
+Q6.What is a foreign key?
+=A foreign key is one table which can be related to the primary key of another table. Relationship needs to be created between two tables by referencing foreign
+  key with the primary key of another table.
+  
+Q7.What is a join?
+=This is a keyword used to query data from more tables based on the relationship between the fields of the tables. Keys play a major role when JOINs are used.
+
+Q8.What are the types of join and explain each?
+=There are various types of join which can be used to retrieve data and it depends on the relationship between tables.
+  Inner Join.
+     Inner join return rows when there is at least one match of rows between the tables.
+
+  Right Join.
+     Right join return rows which are common between the tables and all rows of Right hand side table. Simply, it returns all the rows from the right hand side table even though there are no matches in the left hand side table.
+
+  Left Join.
+     Left join return rows which are common between the tables and all rows of Left hand side table. Simply, it returns all the rows from Left hand side table even though there are no matches in the Right hand side table.
+
+  Full Join.
+     Full join return rows when there are matching rows in any one of the tables. This means, it returns all the rows from the left hand side table and all the rows from the right hand side table.
+     
+Q9.What is normalization?
+=Normalization is the process of minimizing redundancy and dependency by organizing fields and table of a database. The main aim of Normalization is to add, delete or modify field that can be made in a single table.
+
+Q10.What is Denormalization?
+=DeNormalization is a technique used to access the data from higher to lower normal forms of database. It is also process of introducing redundancy into a table by incorporating data from the related tables.
