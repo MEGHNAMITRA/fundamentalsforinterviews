@@ -1,0 +1,47 @@
+Q1.What do you understand by NoSQL?
+= Nowadays, developers are dealing with a large volume of data which is called big data. So naturally, big complexity and big issues will be there. Once most of the systems are getting online, so data load increases. NoSQL helps to manage unstructured, messy, and complicated data.
+ This is not a traditional database or relational database management.
+ 
+Q2.How many types of mechanism works in NoSQL? Write down their name?
+= There are four types of mechanisms: Graph database, Key value calculation, Document oriented, Column view presentation.
+
+Q3.Can you tell me when you should use NoSQL in place of the normal database?
+= If you are looking for key-value stores with massive high-speed performances, you can use NoSQL. Because in the relational databases, we use ACID transactions. Once we use this kind of transaction, 
+  the schema-based process will slow down the database performance.
+  
+Q4.Write down the NoSQL's different features?
+= These are different features of NoSQL:It can store a big amount of unstructured, structured, and semi-structured data.
+         It is object-oriented programming based, which is best for a web application.
+         It is agile, sprints based, which is best for project management.
+         It is cost-effective with scale-out architecture and efficiency.
+         
+Q5. What do you know about polyglot persistence in NoSQL?
+= Once the applications are used and developed with mixed programming languages, debugging becomes easy in databases. However, tough complex problems will be there. Now let's talk about an e-commerce web application with a huge database of carts that is highly available to the buyer and will be easy to manage by this hybrid concept of polyglot. This hybrid technology helps the database to give suggestions to buyers.Once the applications are used and developed with mixed programming languages, debugging becomes easy in databases. However, tough complex problems will be there. Now let's talk about an e-commerce web application with a huge database of carts that is highly available to the buyer and will be easy to manage by this hybrid concept of polyglot.
+  This hybrid technology helps the database to give suggestions to buyers.
+  
+Q6.Can we use NoSQL in an Oracle-based database?
+= Yes, NoSQL is applicable in the Oracle database to record data. This database helps to find out the data records through external table functions. As well, it is easier to perform some queries in the Oracle base database.
+  It is very flexible and key-value based.
+  
+Q7.Clarify the key value in the NoSQL database?
+= Generally, in a database, we store the data in a table. In NoSQL, we usually store data in the hash table. These all have tables are having unique identities. If you are finding some data, then using a key-value store is a better option than working with joins. 
+  This key value will be picking up data faster from the hash table.
+  
+Q8.What is a hash table? How does it work in NoSQL?
+= This is like a data structure that provides an associative array of abstract data types. This table uses to function in a complex database. 
+  You need to write has code-based queries in this type of database.
+  
+Q9.What is the meaning of document-oriented DB?
+= This is one of the features of the NoSQL database. It helps to store the data as schema-free. As a result, JavaScript object notation will be used, and scalability will be higher. 
+  The project will be developed faster at a low cost too
+  .
+Q10. How can you perform column view data presentation in NoSQL?
+= If you are looking for a highly analytical output, you can use this column view data presentation. This NoSQL can store a huge analytical amount of data in columns rather than rows. You can also build subgroups by collecting columns. You don't need to give any key names to this type of database. 
+  This is mainly recommended for the data belonging to the data science field.
+  
+Q11.Explain the CAP theorem in NoSQL?
+= It is the most reliable three guarantees for a database. CAP theorem is expertise with skills like consistency, availability, and partition tolerance. The nodes will be working in the network seamlessly. As a result, the database will work faster.
+
+
+  
+         
