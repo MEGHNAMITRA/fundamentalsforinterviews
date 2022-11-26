@@ -1,0 +1,37 @@
+Q1.How does the NoSQL database control machine price range memory? 
+= The replication node that manages the NoSQL database save information is the replication node. It is likewise the primary client of reminiscence. The java heap and the cache length that the replication node can utilize are the critical elements in performance phrases. By default, those matters are calculated via way of means of NoSQL in phrases of the quantity of memory to be had to the storage node. Specification of the to be had reminiscence for a storage node is recommended. The memory can be calmly divided among all of the RNs if the
+   garage node hosts a couple of replication node.
+   
+Q2.What do you know about Big SQL in NoSQL?
+= This Big SQL is developed by IBM. This is a high-speed performance database that follows MPP ( Massive parallel processing) SQL engine for a large amount of data managed by Hadoop. Mainly enterprise data will be stored by this process. By using Big SQL, you can access data from across the organization with the permission of the database administrator. 
+  It is fully secured too. Mainly banking industries are using this.
+  
+Q3.How is this impedance mismatch happening in the database?
+= Let's talk about the main difference between NoSQL and relational databases. This is a problem statement that happens due to the miss-match of database models and programming languages. If you want to use a richer memory structure, then you have translated this database to a relational database to store on disk. 
+  As a result, impedance mismatch will occur.
+  
+Q4.What is the role of the aggregate-oriented database?
+= Actually, this is a collection of data that interacts with other data as a unit. By using ACID operations and key-value, all data can be seen as a form of an aggregate-oriented database.
+   It helps to manage the storage over the cluster. This often reduces computation.
+   
+Q5.Write down the script for NoSQL DB config?
+= If you are looking forward to building a NoSQL DB connection repeatedly, then you need to admin CLI commands. It can be used as scripted in different ways. For example, you can build a file that will store a sequence of commands to run using any programming 
+   language suitable for the particular database.
+   
+Q6.What is eventual consistency in the context of NoSQL?
+= In the database, we do use service logic. Once you execute these service logics, the database system will be left in a constant state. To increase the data availability, you can use this concept. 
+   It has a distributed database system too.
+   
+Q7.Why do we use impala in the NoSQL database?
+= Once the database administrators handle big data with the Hadoop system, then this impala provides parallel processing in database technology. You can also do low latency queries by using impala. Due to this parallel processing, 
+  data fetching time will be less.
+  
+Q8.Is NoSQL occurring in a normal database table? 
+= NoSQL does not mean no to SQL; obviously, SQL is there. It works in the non-tabular form. Actually, you do not need to create any table for this type of database. By using NoSQL, you can improve the database performance. Mostly in dynamic SQL, to make parameterized queries,
+  database developers use this NoSQL.
+  
+Q9.What is the main target of NoSQL?
+= The main target of NoSQL is to create an alternate database in SQL. It helps to store textual data in a database easily that is also in a non-structured format.
+
+Q10.Can you tell me what the main principle of NoSQL is?
+= The main principle of NoSQL is to make the database high availability.
