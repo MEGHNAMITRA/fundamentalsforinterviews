@@ -1,0 +1,35 @@
+Q1.Explain the terminology LIFO?
+= LIFO stands for Last In First Out.This process describes how the data is accessed, stored, and then retrieved. So the latest data that is stored in the database can be extracted first.
+
+Q2. Explain what is a binary tree?
+= It is one type of data structure that has two nodes, has left node and a right node. In a programming language, binary trees are considered to be an extension to the linked list.
+
+Q3.Define what is a stack?
+= The stack is considered as a data structure where the top layer element can be accessed. The data is stored in the stack and every time when data is stored, it pushes the data downwards which enables the users to access the latest data from the top layers.
+
+Q4.Explain what is multidimensional arrays?
+= Multidimensional arrays use multiple indexes in order to store data in the database. In a few scenarios, data cannot be stored using a single dimension index, in these scenarios multidimensional arrays are useful.
+
+Q5.Explain whether a linked list is considered as a linear or non-linear data structure?
+= This is purely determined on the requirement basis, a linked list can be considered as a linear data structure or a non-linear data structure. For example: If the linked list is used on storage, then the linked list is considered as a nonlinear data structure.
+   If linked lists are used against access strategies then they are considered as a linear data structure.
+   
+Q6.Explain how does dynamic memory allocation will help you in managing data?
+= A dynamic memory allocation will help you effectively manage your data by allocating structured blocks to have composite structures that can be flexible, i.e. it can expand and can contract based on the need.
+  Also, they are capable of storing simple structured data types.
+  
+Q7.What is FIFO?
+= FIFO in data terminology stands as “First in, First Out”.This process defines or depicts how the data is stored inserted and accessed in a queue. Within this process, the data that is inserted at the beginning of the queue will only be extracted or accessed first.
+
+Q8.Explain what is merge sort and how it is useful?
+= A merge sort is nothing but a process where the data is divided and sorted to reach the end goal. Within this process, the adjacent elements are merged and sorted to create bigger elements. These sorted elements are gathered again and made the even bigger list. This process is continuous and repetitive until and unless they have nailed it down to a single sorted list.
+
+Q9.List out all the advantages of a linked list?
+= The important aspect or advantage of a linked list is that it is the perfect data structure where the data can be modified very easily. Also, it doesn’t matter how many elements are available on the linked list.
+
+Q10.Explain the main difference between PUSH and a POP?
+= The two main activities, i.e. Pushing and Popping applies the way how data is stored and retrieved in an entity. So if you check in detail, a Push is nothing but a process where data is added to the stack.  On the contrary, a Pop is an activity where data is retrieved from the stack. When we discuss data retrieval it only considers the topmost available data.
+
+Q11.Can you explain with an example how does a variable declaration activity will consume or affect the memory allocation?
+= The amount of space or memory is occupied or allocated depends upon the data type of the variables that are declared. So let’s explain the same by considering an example:  Let’s say the variable is declared as an integer type then 32 bits of memory storage is allocated for that particular variable.
+  So based on the data type of the variable, the memory space will be allocated.
