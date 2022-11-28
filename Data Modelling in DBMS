@@ -1,0 +1,32 @@
+Q1. Explain the Two Different Design Schemas.
+= The two design schema is called Star schema and Snowflake schema. The Star schema has a fact table centered with multiple dimension tables surrounding it. A Snowflake schema is similar, except that the level of normalization is higher, which results in the schema looking like a snowflake.
+
+Q2. What is a Slowly Changing Dimension?
+= These are dimensions used to manage both historical data and current data in data warehousing. There are four different types of slowly changing dimensions: SCD Type 0 through SCD Type 3.
+
+Q3.What is Data Mart?
+= A data mart is the most straightforward set of data warehousing and is used to focus on one functional area of any given business. Data marts are a subset of data warehouses oriented to a specific line of business or functional area of an organization (e.g., marketing, finance, sales). Data enters data marts by an assortment of transactional systems, other data warehouses, or even external sources.
+
+Q4. What is Granularity?
+= Granularity represents the level of information stored in a table. Granularity is defined as high or low. High granularity data contains transaction-level data. Low granularity has low-level information only, such as that found in fact tables.
+
+Q5.What is Data Sparsity, and How Does it Impact Aggregation?
+= Data sparsity defines how much data we have for a model’s specified dimension or entity. If there is insufficient information stored in the dimensions, then more space is needed to store these aggregations, resulting in an oversized, cumbersome database.
+
+Q6.What Are Subtype and Supertype Entities?
+= Entities can be broken down into several sub-entities or grouped by specific features. Each sub-entity has relevant attributes and is called a subtype entity. Attributes common to every entity are placed in a higher or super level entity, which is why they are called supertype entities.
+
+Q7. In the Context of Data Modeling, What is the Importance of Metadata?
+= Metadata is defined as “data about data.” In the context of data modeling, it’s the data that covers what types of data are in the system, what it’s used for, and who uses it.
+
+Q8.Should All Databases Be Rendered in 3NF?
+= No, it’s not an absolute requirement. However, denormalized databases are easily accessible, easier to maintain, and less redundant.
+
+Q9.What’s the Difference Between forwarding and Reverse Engineering, in the Context of Data Models?
+= Forward engineering is a process where Data Definition Language (DDL) scripts are generated from the data model itself. DDL scripts can be used to create databases. Reverse Engineering creates data models from a database or scripts. Some data modeling tools have options that connect with the database, allowing the user to engineer a database into a data model.
+
+Q10.What Are Recursive Relationships, and How Do You Rectify Them?
+= Recursive relationships happen when a relationship exists between an entity and itself. For instance, a doctor could be in a health center’s database as a care provider, but if the doctor is sick and goes in as a patient, this results in a recursive relationship. You would need to add a foreign key to the health center’s number in each patient’s record.
+
+Q11.What’s a Confirmed Dimension?
+= If a dimension is confirmed, it’s attached to at least two fact tables.
