@@ -1,0 +1,35 @@
+Q1.Explain what is a dequeue?
+= A de queue is nothing but a double-ended queue. Within this structure, the elements can be inserted or deleted from both sides.
+
+Q2.Explain the process of how a selection sort works?
+= A selection sort is a process where it picks up the smallest number from the entire data setlist and places it at the beginning. The same process is continued where the second position is already filled in. The same process is continued all the way until the list is completed. The selection sort is defined as a simple sort algorithm when compared to others.
+
+Q3.Explain what is a graph?
+= A graph is nothing but a type of data structure that has a set of ordered pairs. In turn, these pairs are again acknowledged as edges or arcs. These are used to connect different nodes where the data can be accessed and stored based on the needs.
+
+Q4.Is it possible to implement a stack using a queue?
+= Yes, you can implement a stack using two queues. Any data structure to act like a stack should have a push() method to add data on top and a pop() method to remove the top data.
+
+Q5.How would you implement a queue using a stack?
+= Using two stacks, you can implement a queue. The purpose is to complete the queue's en queue operation so that the initially entered element always ends up at the top of the stack. 
+  First, to enqueue an item into the queue, migrate all the elements from the beginning stack to the second stack, push the item into the stack, and send all elements back to the first stack.
+  To dequeue an item from the queue, return the top item from the first stack.
+
+Q6.Where is the LRU cache used in data structure?
+= In data structures, you use LRU (Least Recently Used) cache to organize items in order of use, enabling you to quickly find out which item hasn't been used for a long time.
+
+Q7.Which Data Structure is used to implement LRU cache? 
+= To implement the LRU cache, you should use two data structures: a hashmap and a doubly linked list.A hashmap helps with the lookup of cached keys, and a doubly-linked list helps maintain the eviction order.
+
+Q8.What is the difference between storage structure and file structure?
+= The main difference between storage structure and file structure depends on the memory area that is accessed.
+   Storage structure: It's a data structure representation in computer memory. 
+   File structure: It's a storage structure representation in the auxiliary memory.
+   
+Q9.Are linked lists considered non-linear or linear data structures?
+= It depends on where you plan to use Linked lists. You can consider a linked list for both non-linear and linear data structures. When used for data storage, it is regarded as a non-linear data structure. When used for access strategies, it is considered a linear data structure.
+
+Q10. What is a doubly-linked list used for?
+= A doubly linked list is one of the complex types of the linked list, where a node contains a pointer to the previous and the next node in the sequence. It consists of three parts: node data, a pointer to the next node in sequence (next pointer), a pointer to the previous node (previous pointer)
+
+  
