@@ -1,0 +1,32 @@
+Q1.When is it useful to use a linked list?
+= An employer may ask this common question at the beginning of your interview to assess your computer science fundamentals. Understanding the uses of linked lists is important for careers in coding and software engineering. Consider providing an example of a time you used a linked list in your work and how it helped complete a task.
+
+   Example: "Linked lists are helpful when you need to perform a lot of insertions and removals on a list of arbitrary. You also can use them to split and join lists. In my past job, my team used a linked list to store information for our project since it was a more effective way to access memory locations that aren't continuous than using arrays."
+   
+Q2.What are some types of linked lists?
+= Interviewers may ask this question to see how knowledgeable you are on linked lists. It's helpful to review the different types and other related technical terms before your interview so you can impress the interviewer with your understanding of computer architecture. In your response, list the four main types of linked lists and briefly describe each one.
+
+   Example: "There are four main types of linked lists. These include a singly linked list, doubly linked list, multiply linked list and circular linked list. Singly linked lists are the simplest form of a linked list and occur when every node contains some data and a pointer to the next node with the same data type. Doubly linked lists are when a list has two references, with one to the next node and the other to the previous node.
+
+   In a multiply linked list, each node contains at least two link fields, with each field connecting the same set of data in a different order of the same set. Finally, a circular linked list is when the last node of the list pints back to the head or first node of the list."
+
+Q3.How would you convert a binary tree into a doubly linked list?
+= Scenario questions like this one help an interviewer see how you would respond to certain situations. These demonstrate that you understand the structure of binary trees and doubly linked lists. In your response, share the steps you would take to convert a binary tree into a doubly linked list.
+
+  Example: "To convert a binary tree into a doubly linked list, I would first see if a left subtree exists. If it does, I would process the left subtree and convert it to a doubly linked list. Next, I would search for the in order predecessor of the left subtree root and make it the previous root. The root would become the next in order predecessor. Then I would repeat these steps on the right subtree. Finally, I would find the leftmost node and return it so that its the head node of the doubly linked list."
+
+Q4.Can you explain some differences between linked lists and linear arrays?
+= In addition to encountering questions asking you to define certain terms, you may also have questions that ask you to compare two terms. Understanding how these two linear data structures differ is important so you can determine which one to use. To answer this question, list a few ways they are different.
+
+  Example: "While both linked lists and arrays are linear data structures, they have a different overall structure. Arrays are index based data structures, meaning that each element has an association with an index. Linked lists consist of nodes with data and reference to the previous and next element. Another difference between these two data structures are that arrays tend to be more expensive and waste more space than linked lists. Arrays also store elements in consecutive memory locations, while linked lists sometimes do not."
+
+Q5.What algorithm would you use to implement and find similar elements in two linked lists, assuming there are no duplicates?
+= An interviewer may ask this question to see if you have experience finding similar elements in two linked lists. In your answer, clearly describe your process for finding the related elements. If they provide numerals for the linked lists, include your final answer in your response. For instance, if List 1 was [1,2,3,4,4,5,6] and List 2 was [1,3,6,4,2,8], your final answer would be [1,2,3,4,6] since both lists share these values.
+
+  Example: "If I needed to find similar elements in two linked lists, I would first make an empty hash table. Then I would set the result list to NULL. Next, I would traverse List 1 and insert the elements visited into the hash table. I also would traverse List 2 and add the elements visited into the hash table. If I noticed an element already existed in my hash table, I would add it to my result list. Those that aren't already present, I would ignore."
+
+Q6.How would you split the linked list [1,2,3,4,5,6,7,8,9,10] into "k" consecutive linked list "parts" if "k" equals three? Make the length for each part as equal as possible and in order of occurrence.
+= Near the end of your interview, you may encounter more in-depth technical questions that have you apply your linked list skills to a specific scenario. This can show them how you reason through a problem. When answering this question, provide the steps you took to solve this problem and share what your final answer was.
+
+  Example: "To split the linked list into three lists, I would first divide the number of nodes in the linked list by 'k,' which was three. This would tell me how many items are in each part since each part has n/k elements except the first part, which has n%k parts. For this linked list, my final answer would be: [ [1,2,3,4] [5,6,7] [8,9,10] ]."
+
