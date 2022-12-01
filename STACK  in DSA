@@ -1,0 +1,33 @@
+Q1.How to implement Stack in Java using array?
+= I can't tell you much about this because it's pretty simple. All you need to write essential functions like push(), pop(), size().
+
+Q2.How to evaluate a postfix expression using a stack?
+= You need to write a program that will accept a string in postfix format and then return the result of that expression for the example given "24*" your program should return 8.
+
+Q3. How to sort values in a stack?
+= Here, you need to write a program where you will be given a stack with unsorted order, you need to return a stack with elements in sorted order.
+
+Q4.How do you find the sum of two linked lists using Stack?
+= For example, if the given linked list are 1-2-3-4-5 and 6-7-8-9-10 then your program should return a linked list with nodes 7-9-11-13-15.
+
+Q5.How to convert Infix to Postfix using Stack?
+= For example, if the given expression is ((A-(B/C))*((A/K)-L)) then your program should return *-A/BC-/AKL.
+
+Q6.Postfix to Prefix Conversion?
+= For example, if the given expression is "AB+CD-*" then your program should return it on prefix format like "*+AB-CD".
+
+Q7.Iterative PreOrder traversal using Stack? 
+= in pre-order traversal of a tree, the root is visited first, then left node, and finally the right node. That's why this is also called NLR (Root-Left-Right) traversal algorithm. Given a binary tree, you need to print all nodes in the pre-order. 
+
+Q8.Iterative InOrder traversal using Stack?
+= during in-order traversal, the left node is traversed first, then root, and finally the right node, hence this algorithm is also known as LNR (Left-Node-Right) order algorithm. Another interesting fact of in-order traversal is that in the case of the binary search tree, it prints all nodes in sorted order. 
+
+Q9.Iterative PostOrder traversal using Stack? 
+= Just in case you forgot what is post-order traversal, let me remind you that in a post-order traversal of a binary tree, the left node is traversed first, then the right node, and finally the root. It's also known as LRN (Left-Right-Node) order traversal. Again, you cannot use recursion. 
+
+Q10.Reverse a number using a stack?
+= For example: if the given number is 12345 then your program should return 54321. You cannot use recursion.
+
+
+
+
