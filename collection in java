@@ -1,0 +1,44 @@
+Q1. What is framework in Java?
+=A framework is a popular and readymade architecture that contains a set of classes and interfaces.
+
+Q2. What is the Collection framework in Java?
+=Collection Framework is a grouping of classes and interfaces that is used to store and manage the objects. It provides various classes like Vector, ArrayList, HashSet, Stack, etc. Java Collection framework can also be used for interfaces like Queue, Set, List, etc.
+
+Q3.Explain Collections Class
+=java.util.Collections is a class consists of static methods that operate on collections. It contains polymorphic algorithms to operate on collections, “wrappers”. This class contains methods for algorithms, like binary sorting, search, shuffling, etc.
+
+Q4.What is the hashCode()?
+=The hashCode() is a method that returns an integer hash code.
+
+Q5.What is ArrayList in Java?
+=ArrayList is a data structure that can be stretched to accommodate additional elements within itself and shrink back to a smaller size when elements are removed. It is a very important data structure useful in handling the dynamic behavior of elements.
+
+Q6. Define BlockingQueue
+=BlockingQueue is an interface used in Java that can extend the Queue. It provides concurrency in various queue operations like retrieval, insertion, deletion, etc.
+ The Queue waits to become non-empty at the time of retrieving any elements. BlockingQueue should not contain null elements. The implementation of this Queue is thread-safe.
+
+Q7.Explain override equals() method
+=The equals method is used to check the similarity between two objects. In case if the programmer wants to check an object based on the property, then it needs to be overridden.
+
+Q8.List out benefits of generic collection
+=The benefits of using the generic collection are:
+  If the programmers are using generic class, they don’t require typecasting.
+  It is type-safe and can be checked at the time of compilation.
+  It provides the stability of the code by detecting bug at the compilation time.
+  
+Q9.Explain the basic interfaces of the Java collections framework
+=Java collection framework is a root of the collection hierarchy. It represents a group of objects as its elements. The Java programming language does not provide a direct implementation of such interface.
+   Set: Set is a collection having no duplicate elements. It uses hashtable for storing elements.
+   List: List is an ordered collection that can contain duplicate elements. It enables developers to access any elements from its inbox. The list is like an array having a dynamic length.
+   MAP: It is an object which maps keys to values. It cannot contain duplicate keys. Each key can be mapped to at least one value.
+   
+Q10.What are the features of Java Hashmap?
+=Features of Java Hashmap are:
+  The values can be stored in a map by forming a key-value pair. The value can be retrieved using the key by passing it to the correct method.
+  If no element exists in the Map, it will throw a ‘NoSuchElementException’.
+  HashMap stores only object references. That is why it is impossible to use primitive data types like double or int. Use wrapper class (like Integer or Double) instead.
+   
+   
+   
+  
+
