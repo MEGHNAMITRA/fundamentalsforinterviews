@@ -1,0 +1,33 @@
+Q1. What is IdentityHashMap?
+= IdentityHashMap is a class that implements Serializable, Clonable interfaces, Map, and extends AbstractMap class. It is designed for the case wherein there is a need of reference-equality semantics.
+
+Q2.What is WeakHashMap?
+= WeakHashMap is an implementation of the Java Map. It is used to store weak references to its keys. Sorting using this Map allows a key-value pair is collected as garbage. Its key is not referenced outside WeakHashMap.
+
+Q3.What are the methods to make collection thread-safe?
+= The methods to make collection thread safe are:
+   Collections.synchronizedList(list);
+   Collections.synchronizedMap(map);
+   Collections.synchronizedSet(set);
+   
+Q4.Explain UnsupportedOperationException
+= UnsupportedOperationException is an exception whch is thrown on methods that are not supported by actual collection type.
+  For example, Developer is making a read-only list using “Collections.unmodifiableList(list)” and calling call(), add() or remove() method. It should clearly throw UnsupportedOperationException.
+  
+Q5.Name the collection classes that gives random element access to its elements
+= Collection classes that give random element access to its elements are: 1) ArrayList, 2) HashMap, 3) TreeMap, and 4) Hashtable.
+
+Q6.Mention the implementing List and Set interface
+= Class implementing List interface: 1) ArrayList, 2) Vector, and 3) LinkedList.   Class implementing Set interface: 1) HashSet, and 2) TreeSet.
+
+Q7.Explain the design pattern followed by Iterator
+= The iterator follows the detail of the iterator design pattern. It provides developer to navigate through the objects collections using a common interface without knowing its implementation.
+
+Q8.What is the peek() of the Queue interface?
+= Peek () is a method of queue interface. It retrieves all the elements but does not remove the queue head. In case if the Queue is empty, then this method will return null.
+
+Q9.What is CopyOnWriteArrayList?
+= CopyOnWriteArrayList is a variant of ArrayList in which operations like add and set are implemented by creating a copy of the array. It is a thread-safe, and thereby it does not throw ConcurrentModificationException. This ArrayLists permits all the elements, including null.
+
+Q10.Explain Linked HashSet
+= Java LinkedHashSet class is a Linked list and Hash table implementation of the Set interface. It contains unique elements same as a HashSet. Linked HashSet in Java also provides optional set operations that can maintain the order of insertion.
